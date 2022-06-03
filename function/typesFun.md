@@ -86,7 +86,7 @@ bcz  during the hoisting phase a() created a memory & this fun assign to a
 
 1- fun inside another fun as arguments
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--------------------------------------
 
 
 var b = function(param){
@@ -127,7 +127,7 @@ b(xyz)
 
 
 2- we can return a fun from a function 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+------------------------------------
 
 var b = function(param){
     
