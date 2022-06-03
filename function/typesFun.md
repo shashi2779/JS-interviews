@@ -127,10 +127,10 @@ b(xyz)
 
 
 2- we can return a fun from a function 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 var b = function(param){
-    console.log(param)
+    
     return function(){
 
     }
@@ -140,6 +140,6 @@ console.log(b())
 
 
 # output:
-        f (){
+          f (){
 
-        }
+          }
