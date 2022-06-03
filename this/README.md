@@ -43,7 +43,7 @@
 
 
 
-### (iii) Inside a function Inside an object
+### (iii) Inside a function Inside an object (obj -> fun)
 
         let obj = {
             name : "shashi",
