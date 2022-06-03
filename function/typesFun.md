@@ -14,7 +14,7 @@ es6 & after :
 3- arrow fun with implicit return 
 
 
-## IIFE function 
+=> IIFE function 
 
 
 ============================================================================
