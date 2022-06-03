@@ -127,7 +127,7 @@ b(xyz)
 
 
 2- we can return a fun from a function 
-------------------------------------
+-----------------------------------
 
 var b = function(){
     
@@ -143,3 +143,9 @@ console.log(b())
           f (){
 
           }
+
+
+In short:
+        1- fun treated as variable
+        2- fun passes as arguments
+        3- fun return from a fun
