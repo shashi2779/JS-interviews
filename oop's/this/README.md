@@ -24,7 +24,7 @@
  ![CHEESE!](img/this.jpeg)
 
  ### Learn tricks:
-- Inside a fun & obj-> fun-> fun 
+- Inside a fun or obj-> fun-> fun 
       
        given same output in node n browser ::::
        
