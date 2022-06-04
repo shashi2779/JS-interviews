@@ -3,6 +3,9 @@
 ## this 
          In js , the this keyword refers to an object.
 
+##### Note:
+         the this keyword is not associated with arrow function.
+
 
 
 ### Two enviroment in js
