@@ -318,3 +318,123 @@
 ####   output:   
               
               undefined
+
+
+======================================================================================================================================================
+
+
+### this keyword with arrow fun :
+        
+-        this keyword is not associated with arrow function
+         (arrow fun ka this se lena dena nhi h)
+
+
+-      arrow fun strict and non-strict dono k sath {} - empty obj deta h
+           
+          
+          
+           let test = () => {
+                console.log(this)
+            }   
+            test()
+            
+            
+            # output:    { }
+
+
+
+-      this , it refers to its parent scope
+       
+       (agar aap regular fun k ander arrow fun banate h , 
+       toh arrow fun , regular fun ki properties ka access le lega)
+       i.e parent ki properties ko access kar lega
+
+        
+        let person = {
+            name:"shashi",
+            age:26,
+            showDetails : function(){
+                console.log(this.name +''+this.age)
+
+                let arrFun = () =>{
+                    console.log(this.name+''+this.age)
+                }
+                arrFun()
+            }
+
+        }
+
+        person.showDetails()
+
+
+       # output :
+                 shashi 26
+                 shashi 26
+
+        
+        Note: 
+              showDetails fun k pas this.name , this.age ka access hai ,
+              toh showDetails k ander jo arrow fun bna h uska child huaa, 
+              toh uske pas bhi access mil jayega. 
+              (this ka arrow se koi lena dena nhi h)
+
+
+-          
+   
+          let person ={
+              name:"shashi",
+              age:26,
+              shoDetails : function(){
+                  console.log(this.name+''+this.age)
+              },
+              arrFun: ()=>{
+                  console.log(this.name+''+this.age)
+              }
+          }
+
+          person.showDetails()
+          person.arrFun()
+
+    
+    # output:
+             shashi 26
+             undefined undefined
+                 
+
+                    
+
+- 
+       
+        let name = vikash,
+        let age = 23
+        
+        let person = {
+            name:"shashi",
+            age:26,
+            showDetails : function(){
+                console.log(this.name +''+this.age)
+
+            },
+            let arrFun1 = () =>{
+                console.log(this.name+''+this.age) 
+            }
+            
+             let arrFun2 = () =>{
+                console.log(name+''+age)
+            }
+
+        }
+
+        person.showDetails()
+        person.arrFun1()
+        person.arrFun2()
+
+       
+       
+        # output:
+                  shashi 26
+                  undefined undefined
+                  vikash 23
+
+
+           
