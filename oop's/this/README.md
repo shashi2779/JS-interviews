@@ -41,7 +41,7 @@
  -  console.log()    
               
         node (strict,non-strict) :  empty obj 
-        browser (strict,non-strict) : undefined
+        browser (strict,non-strict) : window obj
       
 
 
