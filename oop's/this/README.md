@@ -159,8 +159,6 @@
 
 
 
-
-
 ## Browser : non-strict mode
 
 ### (i) 
