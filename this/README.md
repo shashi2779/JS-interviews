@@ -166,7 +166,8 @@
         console.log(this);
      
 ####   output:   
- ##### on console : window obj
+ ##### on console : 
+                    window obj
 
 
 ### (ii) Inside a function     
