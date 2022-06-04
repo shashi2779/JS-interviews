@@ -395,10 +395,11 @@
           person.showDetails()
           person.arrFun()
 
-    
-    # output:
-             shashi 26
-             undefined undefined
+          
+          
+          # output:
+                   shashi 26
+                   undefined undefined
                  
 
                     
