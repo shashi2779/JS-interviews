@@ -388,7 +388,7 @@
                   console.log(this.name+''+this.age)
               },
               arrFun: ()=>{
-                  console.log(this.name+''+this.age)
+                  console.log(this.name+''+this.age) // arrow fun me this ka koi lena dena nhi h
               }
           }
 
