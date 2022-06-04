@@ -23,6 +23,28 @@
 
  ![CHEESE!](img/this.jpeg)
 
+ ### Learn tricks:
+- Inside a fun & obj-> fun-> fun 
+      
+       given same output in node n browser ::::
+       
+       IN non-strict : global obj replce by window obj
+                     : ( node me : global obj , browser me : window obj ) bola jata h , dono same h
+
+       IN strict - undefined
+
+
+-  obj-> fun
+
+       return obj itself in all browser,node(strict,non-strict)
+
+ -  console.log()    
+              
+        node (strict,non-strict) :  empty obj 
+        browser (strict,non-strict) : undefined
+      
+
+
 
 ## Node : non-strict mode
 
