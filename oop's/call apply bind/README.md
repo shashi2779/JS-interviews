@@ -35,7 +35,7 @@
 
 
    #####  note:
-         har  obj bna krr yahi fun de rhe , toh kam repeatative ho ja rha 
+         har  obj bna krr yahi (showDetails) fun de rhe , toh kam repeatative ho ja rha 
 
          kyun na hamare pas ese fun hote ki hamne ek obj me ek fun define kiya h 
          vo mai multiple object's k liye call kar pau
