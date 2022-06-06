@@ -177,7 +177,7 @@
 
 
  # bind :   
-         function (showDetails) ko ☞bind -> bound krr k rakh lega ki ye mere pas h ,
+         function (showDetails) ko ☞bind , 🤏bound krr k rakh lega ki ye mere pas h ,
          lekin as a function hi h 
          mai turant call nhi karunga , app jab chahoge use call karna toh use kisi
          variable me store kar rakh lo , phir aap jab chahe tab call kar lena 
