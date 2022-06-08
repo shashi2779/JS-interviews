@@ -1,0 +1,52 @@
+//Asynchronous way of reading files with callback
+// readFile
+// readFile - except's a callback function
+// parallel order
+
+
+const fs = require('fs')
+
+//--------------------------------------------------------------
+
+// console.log('before')
+// fs.readFile('f1.txt',cb)
+
+// function cb(err,data){
+//     if(err){
+//         // console.error(err)
+//         console.log(err)
+//     }else{
+//          console.log(''+data)
+//     }
+// }
+
+// console.log('after')
+
+//-----------------------------------------------------------------------
+
+
+
+console.log('before')
+
+fs.readFile('f1.txt',cb)
+fs.readFile('f2.txt',cb2)
+
+function cb(error,data){
+    if(error){
+        // console.error(error)
+        console.log(error)
+    }else{
+         console.log(''+data)
+    }
+}
+
+function cb2(error,data){
+    if(error){
+        // console.error(error)
+        console.log(error)
+    }else{
+         console.log(''+data)
+    }
+}
+
+console.log('after')

@@ -190,6 +190,6 @@
 
 
 
-### var vs let vs const
+### var vs let vs const  
 
 ![CHEESE!](./variable.jpeg)
