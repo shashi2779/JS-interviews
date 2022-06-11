@@ -1,6 +1,6 @@
 //  Task type - (1) serial order (2) parrel order
 //serial order - (eg)- [create video -> edit -> upload] dependent h
-// most famous question of iterviews - Asynchronous , parallel order hota h , hmm ne use serial order me banaya
+// most famous question of iterviews - Asynchronous , parallel order hota h , hmm ne ussee serial order me banaya
 
 const fs = require('fs')
 
