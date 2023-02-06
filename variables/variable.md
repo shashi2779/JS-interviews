@@ -29,7 +29,7 @@
 - loosely typed language || dynamically typed language || weekly typed language
   
  
-- js is a dynamically typed language, dataType is not specified here
+-  **js is a dynamically typed language, dataType is not specified here.**
  
  
   means :
